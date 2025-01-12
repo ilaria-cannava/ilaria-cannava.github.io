@@ -111,7 +111,7 @@
      * color-2(#493657)
      * color-3(#f46036)
      */
-    --color-1: hsla(182, 82%, 38%, 1);
+    --color-1: hsla(182, 82%, 30%, 1);
     --color-2: hsla(275, 23%, 28%, 1);
     --color-3: hsla(13, 90%, 58%, 1);
 
@@ -168,7 +168,7 @@
 
     /* text
      */
-    --color-text       : var(--color-gray-11);
+    --color-text       : var(--color-gray-8);
     --color-text-dark  : var(--color-black);
     --color-text-light : var(--color-gray-7);
     --color-placeholder: var(--color-gray-6);
@@ -3627,6 +3627,7 @@ body.search-is-visible {
 
 .s-home__slider p {
     max-width: 600px;
+    
     margin-right: auto;
     margin-left: auto;
 }
